@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Benefits</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .title {
+            margin-bottom: 3.3rem;
+        }
+
+        .title h1 {
+            font-size: 3rem; /* Increased font size */
+            font-weight: 700;
+            line-height: 1.1;
+        }
+
+        .title .highlight {
+            color: #00c853;
+            display: block;
+            font-size: 3.5rem; /* Larger size for subscription text */
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .benefit-item {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+        }
+
+        .benefit-icon {
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.75rem; /* Larger icons */
+            color: #333;
+        }
+
+        .benefit-text {
+            font-size: 1.25rem; /* Increased text size */
+            color: #333;
+            line-height: 1.4;
+        }
+
+        @media (max-width: 768px) {
+            .benefits-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .title h1 {
+                font-size: 2.75rem;
+            }
+
+            .title .highlight {
+                font-size: 3rem;
+            }
+
+            .benefit-text {
+                font-size: 1.1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .title h1 {
+                font-size: 2.25rem;
+            }
+
+            .title .highlight {
+                font-size: 2.5rem;
+            }
+
+            .benefit-icon {
+                width: 35px;
+                height: 35px;
+                font-size: 1.25rem;
+            }
+
+            .benefit-text {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>
+                Benefits of
+                <span class="highlight">Annual Subscription</span>
+            </h1>
+        </div>
+        
+        <div class="benefits-grid">
+            <div class="benefit-item">
+                <div class="benefit-icon">
+                    <i class="fas fa-infinity"></i> <!-- Unlimited access -->
+                </div>
+                <div class="benefit-text">
+                    Unlimited access to the complete video course library for a year
+                </div>
+            </div>
+
+            <div class="benefit-item">
+                <div class="benefit-icon">
+                    <i class="fas fa-lightbulb"></i> <!-- Multi-skilling -->
+                </div>
+                <div class="benefit-text">
+                    Multi-skilling guides in one place
+                </div>
+            </div>
+
+            <div class="benefit-item">
+                <div class="benefit-icon">
+                    <i class="fas fa-book-open"></i> <!-- Learn new -->
+                </div>
+                <div class="benefit-text">
+                    Learn something new every day
+                </div>
+            </div>
+
+            <div class="benefit-item">
+                <div class="benefit-icon">
+                    <i class="fas fa-rocket"></i> <!-- Explore skills -->
+                </div>
+                <div class="benefit-text">
+                    Explore various skills extensively
+                </div>
+            </div>
+
+            <div class="benefit-item">
+                <div class="benefit-icon">
+                    <i class="fas fa-users"></i> <!-- Global instructors -->
+                </div>
+                <div class="benefit-text">
+                    Access the knowledge of 5,000+ Global Instructors
+                </div>
+            </div>
+
+            <div class="benefit-item">
+                <div class="benefit-icon">
+                    <i class="fas fa-book-open"></i> <!-- New courses -->
+                </div>
+                <div class="benefit-text">
+                    Look forward to 300+ new courses every month
+                </div>
+            </div>
+
+            <div class="benefit-item">
+                <div class="benefit-icon">
+                    <i class="fas fa-chalkboard-teacher"></i> <!-- Multiple devices -->
+                </div>
+                <div class="benefit-text">
+                    Access through multiple devices
+                </div>
+            </div>
+
+            <div class="benefit-item">
+                <div class="benefit-icon">
+                    <i class="fas fa-headset"></i> <!-- Support -->
+                </div>
+                <div class="benefit-text">
+                    24X7 technical support
+                </div>
+            </div>
+
+            <div class="benefit-item">
+                <div class="benefit-icon">
+                    <i class="fas fa-sync-alt"></i> <!-- Updates -->
+                </div>
+                <div class="benefit-text">
+                    Regular updation of all the courses and Certifications
+                </div>
+            </div>
+
+            <div class="benefit-item">
+                <div class="benefit-icon">
+                    <i class="fas fa-award"></i> <!-- Certifications -->
+                </div>
+                <div class="benefit-text">
+                    One Year access to all Certifications
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
